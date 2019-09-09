@@ -5,3 +5,16 @@ h2{ color: #1b53a3;
 }
 body {
     background-color:#657627;
+
+    a:link { background-color: lightblue;
+        color: orange;
+   }
+   a:visited { background-color: lightblue;
+       color: rgb(38, 167, 66);
+   }
+   a:hover { background-color: rgb(243, 4, 203);
+       color: rgb(172, 25, 14);
+   }
+   :active { background-color: rgb(195, 255, 98);
+       color: rgb(0, 0, 0);
+   }
